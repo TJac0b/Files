@@ -1,0 +1,680 @@
+.desktop-5-child,
+.desktop-5-inner,
+.desktop-5-item {
+  position: absolute;
+  top: 323px;
+  left: 559px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-300);
+  filter: blur(305px);
+  width: 377px;
+  height: 377px;
+}
+.desktop-5-inner,
+.desktop-5-item {
+  top: -123px;
+  left: -130px;
+}
+.desktop-5-inner {
+  top: -109px;
+  left: 1161px;
+}
+.men,
+.women {
+  position: absolute;
+  top: 39px;
+  left: 468px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro-100);
+  text-align: left;
+}
+.women {
+  left: 570px;
+}
+.sale {
+  left: 809px;
+}
+.about,
+.kids,
+.sale {
+  position: absolute;
+  top: 39px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro-100);
+  text-align: left;
+}
+.about {
+  text-decoration: none;
+  left: 916px;
+  cursor: pointer;
+}
+.kids {
+  left: 706px;
+}
+.rectangle-a,
+.rectangle-div {
+  position: absolute;
+  top: 32px;
+  background-color: var(--color-darkslategray-100);
+  height: 43px;
+}
+.rectangle-a {
+  text-decoration: none;
+  left: 1328px;
+  border-radius: var(--br-mini);
+  width: 52px;
+  cursor: pointer;
+}
+.rectangle-div {
+  left: 1124px;
+  border-radius: var(--br-21xl);
+  width: 192px;
+}
+.search {
+  position: absolute;
+  top: 41px;
+  left: 1168px;
+  font-size: var(--font-size-lgi);
+  color: var(--color-dimgray-100);
+  text-align: left;
+}
+.vector-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 1.56%;
+  width: 1.11%;
+  top: 4.1%;
+  right: 19.65%;
+  bottom: 94.34%;
+  left: 79.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  height: 0.62%;
+  width: 0.44%;
+  top: 5.43%;
+  right: 19.38%;
+  bottom: 93.95%;
+  left: 80.18%;
+}
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  height: 0.39%;
+  width: 0.28%;
+  top: 5.96%;
+  right: 6.11%;
+  bottom: 93.65%;
+  left: 93.61%;
+}
+.vector-icon3,
+.vector-icon4 {
+  right: 5.35%;
+  left: 94.38%;
+}
+.vector-icon4 {
+  height: 1.66%;
+  width: 1.67%;
+  top: 4.1%;
+  right: 5.21%;
+  bottom: 94.24%;
+  left: 93.13%;
+}
+.nike-white-logo-1 {
+  text-decoration: none;
+  position: absolute;
+  top: 26px;
+  left: 38px;
+  width: 120px;
+  height: 54px;
+  background-image: url(./public/nikewhitelogo1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.line-div {
+  position: absolute;
+  top: 2px;
+  left: 449px;
+  border-top: 4px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  width: 84px;
+  height: 4px;
+}
+.desktop-5-child1,
+.desktop-5-child2 {
+  position: absolute;
+  top: 99px;
+  left: 0;
+  width: 1440px;
+  height: 4px;
+}
+.desktop-5-child2 {
+  top: 102px;
+}
+.desktop-5-child3 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child3,
+.desktop-5-child4 {
+  position: absolute;
+  top: 165px;
+  left: 38px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child5 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child5,
+.desktop-5-child6 {
+  position: absolute;
+  top: 459px;
+  left: 39px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child7 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child7,
+.desktop-5-child8 {
+  position: absolute;
+  top: 753px;
+  left: 38px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child9 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child10,
+.desktop-5-child9 {
+  position: absolute;
+  top: 165px;
+  left: 393px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child11 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child11,
+.desktop-5-child12 {
+  position: absolute;
+  top: 459px;
+  left: 394px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child13 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child13,
+.desktop-5-child14 {
+  position: absolute;
+  top: 753px;
+  left: 393px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child15 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child15,
+.desktop-5-child16 {
+  position: absolute;
+  top: 165px;
+  left: 748px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child17 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child17,
+.desktop-5-child18 {
+  position: absolute;
+  top: 459px;
+  left: 749px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child19 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child19,
+.desktop-5-child20 {
+  position: absolute;
+  top: 753px;
+  left: 748px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child21 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child21,
+.desktop-5-child22 {
+  position: absolute;
+  top: 165px;
+  left: 1103px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child23 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child23,
+.desktop-5-child24 {
+  position: absolute;
+  top: 459px;
+  left: 1104px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.desktop-5-child25 {
+  background-color: var(--color-gray-300);
+  filter: blur(11px);
+}
+.desktop-5-child25,
+.desktop-5-child26 {
+  position: absolute;
+  top: 753px;
+  left: 1103px;
+  border-radius: var(--br-xl);
+  width: 314px;
+  height: 236px;
+}
+.air-force-1-07-1-icon {
+  position: absolute;
+  top: 132px;
+  left: 44px;
+  width: 289px;
+  height: 173px;
+  object-fit: cover;
+}
+.mrp,
+.nike-air-force {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-air-force {
+  text-decoration: none;
+  top: 314px;
+  left: 63px;
+  color: inherit;
+  width: 257px;
+  height: 40px;
+}
+.mrp {
+  top: 362px;
+  left: 85px;
+  width: 217px;
+  height: 33px;
+}
+.blazer-low-77-jumbo-3-icon {
+  position: absolute;
+  top: 106px;
+  left: 741px;
+  width: 319.58px;
+  height: 198.99px;
+  object-fit: cover;
+}
+.mrp1,
+.nike-blazer-low {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-blazer-low {
+  text-decoration: none;
+  top: 310px;
+  left: 751px;
+  color: inherit;
+  width: 308px;
+  height: 44px;
+}
+.mrp1 {
+  top: 374px;
+  left: 797px;
+  width: 230px;
+  height: 24px;
+}
+.air-max-90-3-icon {
+  position: absolute;
+  top: 401px;
+  left: 389px;
+  width: 303px;
+  height: 201px;
+  object-fit: cover;
+}
+.mrp2,
+.nike-air-max {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-air-max {
+  text-decoration: none;
+  top: 610px;
+  left: 408px;
+  color: inherit;
+  width: 278px;
+  height: 34px;
+}
+.mrp2 {
+  top: 659px;
+  left: 446px;
+  width: 208px;
+  height: 29px;
+}
+.blazer-mid-77-jumbo-1-icon {
+  position: absolute;
+  top: 708px;
+  left: 772px;
+  width: 264px;
+  height: 188px;
+  object-fit: cover;
+}
+.mrp3,
+.nike-blazer-mid {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-blazer-mid {
+  text-decoration: none;
+  top: 900px;
+  left: 774px;
+  font-size: var(--font-size-5xl);
+  color: inherit;
+  width: 262px;
+  height: 35px;
+}
+.mrp3 {
+  top: 963px;
+  left: 802px;
+  width: 207px;
+  height: 21px;
+}
+.air-flight-huarach-1-icon {
+  position: absolute;
+  top: 148px;
+  left: 1121px;
+  width: 268px;
+  height: 149px;
+  object-fit: cover;
+}
+.mrp4,
+.nike-air-flight {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-air-flight {
+  text-decoration: none;
+  top: 313px;
+  left: 1145px;
+  color: inherit;
+  width: 242px;
+  height: 33px;
+}
+.mrp4 {
+  top: 370px;
+  left: 1173px;
+  width: 199px;
+  height: 28px;
+}
+.victori-one-slide-1-icon {
+  position: absolute;
+  top: 101px;
+  left: 397px;
+  width: 310px;
+  height: 220px;
+  object-fit: cover;
+}
+.mrp5,
+.nike-victori-one {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-victori-one {
+  text-decoration: none;
+  top: 322px;
+  left: 412px;
+  color: inherit;
+  width: 274px;
+  height: 51px;
+}
+.mrp5 {
+  top: 360px;
+  left: 457px;
+  width: 197px;
+  height: 26px;
+}
+.air-more-uptempo-slides-1-icon {
+  position: absolute;
+  top: 409px;
+  left: 1093px;
+  width: 336px;
+  height: 176px;
+  object-fit: cover;
+}
+.mrp6,
+.nike-air-more {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-air-more {
+  text-decoration: none;
+  top: 593px;
+  left: 1118px;
+  color: inherit;
+  width: 294px;
+  height: 30px;
+}
+.mrp6 {
+  top: 642px;
+  left: 1126px;
+  width: 269px;
+  height: 28px;
+}
+.dunk-low-1-icon {
+  position: absolute;
+  top: 394px;
+  left: 41px;
+  width: 302px;
+  height: 204px;
+  object-fit: cover;
+}
+.mrp7,
+.nike-dunk-low {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-dunk-low {
+  text-decoration: none;
+  top: 598px;
+  left: 59px;
+  color: inherit;
+  width: 278px;
+  height: 44px;
+}
+.mrp7 {
+  top: 648px;
+  left: 96px;
+  width: 224px;
+  height: 34px;
+}
+.desktop-5-child27 {
+  position: absolute;
+  top: 615px;
+  left: 355px;
+  width: 130px;
+  height: 119px;
+}
+.air-foamposite-one-metallic-re-icon {
+  position: absolute;
+  top: 695px;
+  left: 402px;
+  width: 277px;
+  height: 180px;
+  object-fit: cover;
+}
+.air-foamposite-one,
+.mrp8 {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.air-foamposite-one {
+  text-decoration: none;
+  top: 892px;
+  left: 415px;
+  color: inherit;
+  width: 265px;
+  height: 47px;
+}
+.mrp8 {
+  top: 953px;
+  left: 420px;
+  width: 247px;
+  height: 31px;
+}
+.air-jordan-1-low-se-1-icon {
+  position: absolute;
+  top: 406px;
+  left: 744px;
+  width: 311px;
+  height: 201px;
+  object-fit: cover;
+}
+.air-jordan-1 {
+  text-decoration: none;
+  position: absolute;
+  top: 607px;
+  left: 755px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 292px;
+  height: 41px;
+}
+.mrp9 {
+  top: 642px;
+  left: 773px;
+  width: 254px;
+  height: 31px;
+}
+.mrp10,
+.mrp9,
+.nike-waffle-one {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-waffle-one {
+  text-decoration: none;
+  top: 896px;
+  left: 51px;
+  color: inherit;
+  width: 286px;
+  height: 43px;
+}
+.mrp10 {
+  top: 955px;
+  left: 74px;
+  width: 246px;
+  height: 29px;
+}
+.air-kukini-1-icon {
+  position: absolute;
+  top: 708px;
+  left: 1107px;
+  width: 288px;
+  height: 192px;
+  object-fit: cover;
+}
+.mrp11,
+.nike-air-kukini {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.nike-air-kukini {
+  text-decoration: none;
+  top: 904px;
+  left: 1118px;
+  color: inherit;
+  width: 277px;
+  height: 48px;
+}
+.mrp11 {
+  top: 946px;
+  left: 1132px;
+  width: 245px;
+  height: 37px;
+}
+.waffle-one-se-1 {
+  text-decoration: none;
+  position: absolute;
+  top: 689px;
+  left: 31px;
+  width: 322px;
+  height: 203px;
+  background-image: url(./public/waffleonese1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.desktop-5 {
+  position: relative;
+  background: linear-gradient(rgba(15, 15, 15, 0.12), rgba(15, 15, 15, 0.12)),
+    #0d0d0d;
+  backdrop-filter: blur(350px);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

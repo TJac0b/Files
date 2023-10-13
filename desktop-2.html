@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT Sans Caption:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rambla:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Francois One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <a class="frame" href="./desktop-5.html">
+        <img class="back-icon-1" alt="" src="./public/back-icon-1@2x.png" />
+
+        <b class="back">Back</b>
+      </a>
+      <div class="frame1">
+        <div class="frame2">
+          <input class="frame-child" type="text" maxlength="100" required />
+
+          <input class="frame-item" type="number" min="16" max="16" required />
+
+          <div class="name-on-card">Name on Card</div>
+          <div class="card-number">Card number</div>
+          <div class="cvv">CVV</div>
+          <div class="exp-date">Exp date</div>
+          <input class="frame-inner" type="date" required />
+
+          <input
+            class="rectangle-input"
+            type="number"
+            min="3"
+            max="3"
+            required
+          />
+        
+
+          <div class="frame3">
+            <div class="frame4">
+              <div class="payment-method">Payment Method</div>
+              <div class="frame-div"></div>
+            </div>
+            <div class="frame5">
+              <img
+                class="mastercard-icon-1"
+                alt=""
+                src="./public/mastercard--icon-1@2x.png"
+              />
+
+              <img
+                class="visa-icon-1"
+                alt=""
+                src="./public/visa-icon-1@2x.png"
+              />
+
+              <img
+                class="paypal-icon-1"
+                alt=""
+                src="./public/paypal-icon-1@2x.png"
+              />
+
+              <img class="gpay-1-icon" alt="" src="./public/gpay-1@2x.png" />
+            </div>
+          </div>
+        </div>
+        <div class="frame6">
+          <img class="line-icon" alt="" src="./public/line-5.svg" />
+
+          <div class="total-1890-container">
+            <span>Total : ₹</span>
+            <span class="span">1890</span>
+          </div>
+          <div class="frame7">
+            <div class="bill">Bill</div>
+          </div>
+          <button class="frame8" id="frame2">
+            <div class="checkout">Checkout</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var frame2 = document.getElementById("frame2");
+      if (frame2) {
+        frame2.addEventListener("click", function (e) {
+          var nameOnCardInput = document.querySelector(".frame-child");
+          var cardNumberInput = document.querySelector(".frame-item");
+          var expDateInput = document.querySelector(".frame-inner");
+          var cvvInput = document.querySelector(".rectangle-input");
+  
+          if (
+            nameOnCardInput.value.trim() === "" ||
+            cardNumberInput.value.trim() === "" ||
+            expDateInput.value.trim() === "" ||
+            cvvInput.value.trim() === ""
+          ) {
+            e.preventDefault(); // Prevent form submission
+  
+            window.prompt("Please fill in all payment details.");
+          } else {
+            window.location.href = "./desktop-5.html";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

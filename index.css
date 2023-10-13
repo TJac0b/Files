@@ -1,0 +1,158 @@
+.login {
+  position: absolute;
+  top: 61px;
+  left: 967px;
+  font-family: var(--font-oxanium);
+  display: inline-block;
+  width: 422px;
+  height: 130px;
+}
+.desktop-1-child {
+  position: absolute;
+  top: 230px;
+  left: 905px;
+  border-radius: 20px;
+  background-color: rgba(41, 41, 41, 0.48);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 497px;
+  height: 677px;
+}
+.desktop-1-inner,
+.desktop-1-item {
+  
+  position: absolute;
+  top: 397.5px;
+  left: 938.5px;
+  border-top: 3px solid var(--color-red);
+  box-sizing: border-box;
+  width: 439px;
+  height: 3px;
+}
+.desktop-1-inner {
+  
+  top: 510.5px;
+  left: 934.5px;
+}
+.password,
+.user-name {
+  border: 0;
+  font-family: var(--font-play);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  position: absolute;
+  top: 345px;
+  left: 941px;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  width: 422px;
+  height: 47px;
+}
+.password {
+  top: 461px;
+}
+.login1,
+.rectangle-button {
+  position: absolute;
+  cursor: pointer;
+}
+.rectangle-button {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-red);
+  top: 614px;
+  left: 1024px;
+  border-radius: var(--br-11xl);
+  width: 246px;
+  height: 72px;
+}
+.login1 {
+  top: 627px;
+  left: 1045px;
+  font-size: var(--font-size-21xl);
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  display: inline-block;
+  width: 207px;
+  height: 45px;
+}
+.lock-icon-1,
+.user-icon-1 {
+  position: absolute;
+  top: 468px;
+  left: 1323px;
+  width: 57px;
+  height: 44px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.user-icon-1 {
+  top: 356px;
+  width: 53px;
+  height: 39px;
+}
+.forgot-password {
+  position: absolute;
+  top: 531px;
+  left: 942px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-red);
+  display: inline-block;
+  width: 240px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  right: 582.96px;
+  width: 857.04px;
+  height: 1024px;
+}
+.just-do-it-1,
+.niike-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 306px;
+  height: 329px;
+  object-fit: cover;
+}
+.just-do-it-1 {
+  left: 39px;
+  width: 760px;
+  height: 1387px;
+  opacity: 0.4;
+}
+.ambush-1-icon,
+.jordans-1-icon {
+  position: absolute;
+  top: 130px;
+  left: 114px;
+  width: 611px;
+  height: 491px;
+  object-fit: cover;
+}
+.ambush-1-icon {
+  top: 508px;
+  left: 143px;
+  width: 577px;
+  height: 374px;
+}
+.nike-just-do-it-logo-transpare-icon {
+  position: absolute;
+  top: 907px;
+  left: 1283px;
+  width: 157px;
+  height: 129px;
+  object-fit: cover;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 128px;
+  color: var(--color-white);
+  font-family: var(--font-play);
+}
